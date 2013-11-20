@@ -8,7 +8,7 @@ window.angular.module('ngff.controllers.leagues', [])
 					name: this.league.name
 				});
 
-				league.save(function(response) {
+				league.$save(function(response) {
 					$location.path("leagues/" + response._id)
 				});
 
@@ -30,7 +30,7 @@ window.angular.module('ngff.controllers.leagues', [])
 			$scope.update = function() {
 				var league = $scope.league;
 				league.$update(function() {
-					$location.path('leagues/' + league.id);
+					$location.path('leagues/' + league._id);
 				});
 			}
 

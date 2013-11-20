@@ -11,4 +11,4 @@ window.angular.module('ngff.services.leagues', [])
 				}
 			)
 		}
-	}])
+	])
