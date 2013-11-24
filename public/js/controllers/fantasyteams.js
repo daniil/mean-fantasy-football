@@ -46,7 +46,7 @@ window.angular.module('ngff.controllers.fantasyTeams', [])
 				});
 			};
 
-			$scope.remove = function(fantasyteams) {
+			$scope.remove = function(fantasyteam) {
 				fantasyteam.$remove();
 				for (var i in $scope.fantasyteams) {
 					if ($scope.fantasyteams[i] == fantasyteam) {
