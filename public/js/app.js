@@ -14,7 +14,8 @@ window.angular.module('ngff.controllers', [
 	'ngff.controllers.index',
 	'ngff.controllers.nfl',
 	'ngff.controllers.leagues',
-	'ngff.controllers.fantasyTeams'
+	'ngff.controllers.fantasyTeams',
+	'ngff.controllers.players'
 ]);
 
 window.angular.module('ngff.services', [
